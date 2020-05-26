@@ -92,7 +92,6 @@ function renderPlaces(places) {
         const icon = document.createElement('a-link');
         icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
         icon.setAttribute('name', place.name);
-        icon.setAttribute('title', place.name);
         icon.setAttribute('src', '../assets/map-marker.png');
 
         // for debug purposes, just show in a bigger scale, otherwise I have to personally go on places...
@@ -101,6 +100,7 @@ function renderPlaces(places) {
         icon.addEventListener('loaded', () => window.dispatchEvent(new CustomEvent('gps-entity-place-loaded')));
 
         const clickListener = function (ev) {
+            alert('Clicked!')
             ev.stopPropagation();
             ev.preventDefault();
 
