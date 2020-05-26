@@ -32,10 +32,10 @@ var models = [
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
-        url: './assets/jelly/scene.gltf',
+        url: './assets/jelly/Moon-Jelly.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: 'MoonJelly, Lv. 99, HP 150/150',
+        info: 'MoonJelly, Lv. 100, HP 99/99',
     },
 ];
 
