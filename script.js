@@ -32,10 +32,10 @@ var models = [
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
-        url: './assets/dragonite/scene.gltf',
-        scale: '0.08 0.08 0.08',
+        url: './assets/jelly/scene.gltf',
+        scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: 'MoonJelly, Lv. 99, HP 150/150',
     },
 ];
 
