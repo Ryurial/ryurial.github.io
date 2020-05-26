@@ -56,6 +56,7 @@ window.onload = () => {
 
                     // this click listener has to be added simply to a click event on an a-entity element
                     const clickListener = function (ev) {
+                        alert("Clicked!");
                         ev.stopPropagation();
                         ev.preventDefault();
 
