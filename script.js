@@ -64,7 +64,7 @@ window.onload = () => {
                         const el = ev.detail.intersection && ev.detail.intersection.object.el;
 
                         if (el && el === ev.target) {
-                            alert("Clicked!--"+this.name);
+                            alert(name);
                             // after click, we are adding a label with the name of the place
                             const label = document.createElement('span');
                             const container = document.createElement('div');
