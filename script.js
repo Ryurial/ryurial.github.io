@@ -55,30 +55,30 @@ window.onload = () => {
                     });
 
                     // this click listener has to be added simply to a click event on an a-entity element
-                    const clickListener = function (ev) {
+                    // const clickListener = function (ev) {
                     
-                        ev.stopPropagation();
-                        ev.preventDefault();
+                    //     ev.stopPropagation();
+                    //     ev.preventDefault();
 
-                        const name = ev.target.getAttribute('title');
-                        const el = ev.detail.intersection && ev.detail.intersection.object.el;
+                    //     const name = ev.target.getAttribute('title');
+                    //     const el = ev.detail.intersection && ev.detail.intersection.object.el;
 
-                        if (el && el === ev.target) {
-                            // alert(placeText.getAttribute('title'));
-                            // after click, we are adding a label with the name of the place
-                            const label = document.createElement('span');
-                            const container = document.createElement('div');
-                            container.setAttribute('id', 'place-label');
-                            label.innerText = name;
-                            container.appendChild(label);
-                            document.body.appendChild(container);
+                    //     if (el && el === ev.target) {
+                    //         // alert(placeText.getAttribute('title'));
+                    //         // after click, we are adding a label with the name of the place
+                    //         const label = document.createElement('span');
+                    //         const container = document.createElement('div');
+                    //         container.setAttribute('id', 'place-label');
+                    //         label.innerText = name;
+                    //         container.appendChild(label);
+                    //         document.body.appendChild(container);
 
-                            setTimeout(() => {
-                                // that will disappear after less than 2 seconds
-                                container.parentElement.removeChild(container);
-                            }, 1500);
-                        }
-                    };
+                    //         setTimeout(() => {
+                    //             // that will disappear after less than 2 seconds
+                    //             container.parentElement.removeChild(container);
+                    //         }, 1500);
+                    //     }
+                    // };
                     // placeText.addEventListener('click', clickListener);
                     scene.appendChild(placeText);
                 });
