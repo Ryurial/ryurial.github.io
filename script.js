@@ -56,7 +56,7 @@ window.onload = () => {
 
                     // this click listener has to be added simply to a click event on an a-entity element
                     const clickListener = function (ev) {
-                        alert("Clicked!");
+                    
                         ev.stopPropagation();
                         ev.preventDefault();
 
@@ -64,6 +64,7 @@ window.onload = () => {
                         const el = ev.detail.intersection && ev.detail.intersection.object.el;
 
                         if (el && el === ev.target) {
+                            alert("Clicked!");
                             // after click, we are adding a label with the name of the place
                             const label = document.createElement('span');
                             const container = document.createElement('div');
