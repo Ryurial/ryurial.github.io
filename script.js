@@ -79,7 +79,7 @@ window.onload = () => {
                             }, 1500);
                         }
                     };
-                    placeText.addEventListener('click', clickListener);
+                    // placeText.addEventListener('click', clickListener);
                     scene.appendChild(placeText);
                 });
             })
