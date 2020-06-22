@@ -44,4 +44,3 @@ panorama_CC15C663_D504_454A_41E7_607711D3FC24.label = outer
 
 ### URL
 LinkBehaviour_C8A31430_DA1B_B27F_41C4_AEDEDA2D81B6.source = http://localhost:4200/account/login
-LinkBehaviour_D774068F_DA0A_9E21_41C6_BC37BC5140AA.source = http://localhost:4200/account/login
